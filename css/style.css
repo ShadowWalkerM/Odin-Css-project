@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 body {
     background-color:black;
     color: white;
@@ -95,20 +97,28 @@ header{
 
 .inspire {
     background-color: #040e1c;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 5%;
-    
-    
-    
+    padding: 50px 0px;
+    margin: 40px 0px;
 }
 
-.inspire b {
-    text-align: right;
-    margin-top: -30px;
-    
+.inspirep {
+    font-size: 23px;
+    text-align: left;
+    margin: 0px auto; 
+    width: 600px;
+}
+
+.authorprison {
+    width: 550px;
+    margin: 0px auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .bot {
